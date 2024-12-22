@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {Button} from "@shadcn/ui/button"
 
 import './App.css'
 
@@ -8,6 +9,8 @@ function App() {
   return (
     <>
       <h1 className='text-red-500'>hello react</h1>
+      <Button>Click me</Button>
+
     </>
   )
 }
